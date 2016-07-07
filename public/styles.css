@@ -1,0 +1,42 @@
+body {
+    background: url("http://www.localwom.com/i/dark-pattern-desktop-background-wallpaper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-fluid {
+    border-radius: 0px;
+    width: 100%;
+}
+
+.home-btn {
+    min-width: 300px;
+    width: 40%;
+}
+
+.navbar {
+    background-color: #353A3D;
+}
+
+.well {
+    background-color: darkgray;
+}
+
+.jumbotron {
+    background-color: darkgray;
+}
+
+.color {
+    color: white;
+}
+
+.paid {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.well-total {
+    margin-top: -30px;
+}
