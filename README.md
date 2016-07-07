@@ -1,13 +1,13 @@
 How To
 ======
 
-You'll need to log into or create an account.
+You'll need to login or create an account.
 
-After you have signed up or login, in the upper left corner
+After you have signed up or logged in, in the upper left corner
 
 Your purchase tab will appear. Clicking on the purchase tab will
 
-take you to you list of purchases. If you do not have any
+take you to your list of purchases. If you do not have any
 
 you will have the option to add some. Fill out the fields to
 
