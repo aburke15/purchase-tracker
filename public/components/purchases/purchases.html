@@ -18,7 +18,7 @@
                 <label for="description">Description</label>
                 <textarea class="form-control" name="description" id="description" ng-model="purchase.description"></textarea>
             </div>
-            <button ng-click="addPurchase(purchase)" class="btn btn-success glyphicon glyphicon-plus center-block"></button>
+            <button title="Add Purchase" ng-click="addPurchase(purchase)" class="btn btn-success glyphicon glyphicon-plus center-block"></button>
         </form>  
         <div>
             <h1 class="text-center well col-md-5 col-md-offset-1">Total: {{ getTotal() | currency }}</h1>
@@ -26,14 +26,14 @@
     </div>
 
     <section class="row">
-        <div class="col-md-4" ng-repeat="purchase in purchaseList track by $index">
+        <div class="col-md-10 col-md-offset-1" ng-repeat="purchase in purchaseList track by $index">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <a href="" ng-click="deletePurchase($index, purchase)"><span class="pull-right glyphicon glyphicon-remove"></span></a>
+                    <a href="" title="Delete" ng-click="deletePurchase($index, purchase)"><span class="pull-right glyphicon glyphicon-remove"></span></a>
                     <h4 ng-class="{ 'paid text-muted' : purchase.paid }">{{ purchase.title }}</h4>
                 </div>
                 <div class="panel-body">
-                    <img class="center-block" ng-src="{{ purchase.image }}" height="100px" width="125px" alt="Image">
+                    <img class="center-block" ng-src="{{ purchase.image }}" height="400px" width="600px" alt="Image">
                 </div>
                 <div class="panel-body">
                     <div>
