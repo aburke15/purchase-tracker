@@ -40,3 +40,8 @@ body {
 .well-total {
     margin-top: -30px;
 }
+
+.well {
+    opacity: .8;
+    box-sizing: border-box;
+}
